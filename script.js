@@ -1,0 +1,1 @@
+console.log("Turnamen Futsal UEFA Champions League - Siap Dimulai!");

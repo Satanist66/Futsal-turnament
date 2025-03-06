@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001f3f;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #FFD700;
+}
+.tournament {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.group-stage, .knockout-stage {
+    width: 45%;
+}
+.groups, .bracket {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.group, .round {
+    background: #0074D9;
+    padding: 15px;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
+.final {
+    background: #FFD700;
+    color: black;
+}
